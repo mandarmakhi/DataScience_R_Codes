@@ -3,7 +3,7 @@
 pairs(Cars)
 #correlation matrix
 car(Cars)
-
+################################
 #Regression Model and Summary
 
 model.car<-lm(MPG~.,data=Cars)
