@@ -21,6 +21,8 @@ residualPlots(model.car)
 #QQ plots of studentized residuals
 qqPlot(model.car)
 #Deletion Diagnostics
+#cook's 
+#hat matrix
 influenceIndexPlot(model.car)#index Plots of the influence measures
 
 #iteration 1
